@@ -12,6 +12,7 @@ h1{
     margin:0;
     padding:20px;
     background-color:rgb(252, 234, 255);
+    font-style:italic;
 }
 #grid{
     display:grid;
@@ -25,10 +26,14 @@ h1{
     padding:20px;
     padding-left:33px;
     background-color:rgb(230, 248, 255);
+    line-height:1.6;
 }
 #grid #article{
     padding-left:25px;
     /* background-color:rgb(255, 251, 218); */
+}
+#title{
+    color:rgb(136, 41, 225)
 }
 @media(max-width :720px){
     #grid{
